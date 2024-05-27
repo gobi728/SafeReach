@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.markerfema {
+    background-image: url('fema-logo.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.markerrfweb {
+    background-image: url('rf-logo.jpg');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mapboxgl-popup {
+    max-width: 200px;
+}
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.filterBtn{
+    z-index: 2;
+    padding: 10px;
+    width: 90px;
+    position: absolute;
+}
+.egrowthBtn{
+    top: 20px;
+    left: 20px;
+}
+.colorCoding{
+    margin-top: 100px;
+    left: 0px;
+    background-color: rgb(228, 69, 69);
+    color: aliceblue;
+    width: 300px;
+    height: 100px;
+}
